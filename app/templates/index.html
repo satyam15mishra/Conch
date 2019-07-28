@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Conch - Chatrooms for Medicapsians</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="./static/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./static/css/style.css" rel="stylesheet">
+    <link href="./static/color/default.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./static/img/favicon.ico">
+</head>
+
+<body>
+        <!-- Header area -->
+    <div id="header-wrapper" class="header-slider">
+        <header class="clearfix">
+            <div class="logo">
+                <img src="./static/img/logo-image.png" alt="" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <div id="main-flexslider" class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <p class="home-slide-content">
+                                        <span style="font-size: 25px;">
+                                        <strong>Computers</strong> to Management
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="home-slide-content">
+                                        <span style="font-size: 25px;">
+                                        Debate <strong> to Confessions</strong>
+                                        </span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="home-slide-content">
+                                        <span style="font-size: 25px;">
+                                        Chat <strong> without registering</strong>
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end slider -->
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- spacer section -->
+    <section class="spacer green">
+        <div class="container">
+            <div class="row">
+                <div class="span6 alignright flyLeft">
+                    <blockquote class="large">
+                        The internet is becoming the town square for the global connectivity of tomorrow.<cite style="font-size: 20px;">Bill Gates</cite>
+                    </blockquote>
+                </div>
+                <div class="span6 aligncenter flyRight">
+                    <i class="icon-coffee icon-10x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end spacer section -->
+    
+    <!-- section: services -->
+    <section id="services" class="section orange">
+        <div class="container">
+            <h4>Features</h4>
+            <!-- Four columns -->
+            <div class="row">
+                <div class="span3 animated-fast flyIn">
+                    <div class="service-box">
+                        <img src="./static/img/icons/laptop.png" alt="" />
+                        <h2>Unlimited Chat</h2>
+                        <p>
+                            Chat without constraints. Unlimited messages and chatrooms!
+                        </p>
+                    </div>
+                </div>
+                <div class="span3 animated flyIn">
+                    <div class="service-box">
+                        <img src="./static/img/icons/lab.png" alt="" />
+                        <h2>No Registration</h2>
+                        <p>
+                            No need to give information and fuss of registration. Just dive into the chatroom.
+                        </p>
+                    </div>
+                </div>
+                <div class="span3 animated-fast flyIn">
+                    <div class="service-box">
+                        <img src="./static/img/icons/camera.png" alt="" />
+                        <h2>Diverse Topics</h2>
+                        <p>
+                            A plethora of rooms to go and chat to. From serious topics to light hearted conversations.
+                        </p>
+                    </div>
+                </div>
+                <div class="span3 animated-slow flyIn">
+                    <div class="service-box">
+                        <img src="./static/img/icons/basket.png" alt="" />
+                        <h2>Offers for you!</h2>
+                        <p>
+                            Coming soon.. Exclusive gifts for users of Conch.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section: services -->
+    
+    <!-- section: contact -->
+    <section id="contact" class="section green">
+        <div class="container">
+            <h4>Get Started with <img src="./static/img/logo-image.png" height="120px;" width="120px;" style="margin-bottom: 50px;"></h4>
+            <div class="blankdivider30">
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <div class="cform" id="contact-form">
+                        <!-- <div id="sendmessage">Your message has been sent. Thank you!</div>
+                        <div id="errormessage"></div> -->
+                        <form method="POST" role="form" class="contactForm">
+                            {{ form.hidden_tag() }}
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="field your-name form-group">
+                                        {{ form.name() }} 
+                                        <div class="validation"></div>
+                                    </div>
+                                    <div class="field your-email form-group">
+                                        {{ form.room() }}
+                                        <div class="validation"></div>
+                                    </div>
+                                </div>
+                                <div class="span6" style="color: black;">
+                                    <span class ="btn btn-theme pull-left" style="color: black;">{{ form.submit() }}</span>
+                                    <!-- 
+                                    <input type="submit" value="Send message" class="btn btn-theme pull-left"> -->
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- ./span12 -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span6 offset3">
+                    <ul class="social-networks">
+                        <li><a href="https://www.instagram.com/satayamism_"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+                        <li><a href="https://www.twitter.com/goldy_999"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/satyammishra1"><i class="icon-circled icon-bgdark icon-linkedin icon-2x"></i></a></li>
+                    </ul>
+                    <p class="copyright">
+                        &copy; Satyam Mishra. No copyrights till now :P
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- ./container -->
+    </footer>
+    <a href="" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+    <script src="./static/js/jquery.js"></script>
+    <script src="./static/js/jquery.scrollTo.js"></script>
+    <script src="./static/js/jquery.nav.js"></script>
+    <script src="./static/js/jquery.localScroll.js"></script>
+    <script src="./static/js/bootstrap.js"></script>
+    <script src="./static/js/jquery.prettyPhoto.js"></script>
+    <script src="./static/js/isotope.js"></script>
+    <script src="./static/js/jquery.flexslider.js"></script>
+    <script src="./static/js/inview.js"></script>
+    <script src="./static/js/animate.js"></script>
+    <script src="./static/js/custom.js"></script>
+ <!--    <script src="./static/contactform/contactform.js"></script>
+ -->
+</body>
+
+</html>
